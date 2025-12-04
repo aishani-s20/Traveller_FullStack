@@ -46,7 +46,7 @@ module.exports.createListing = async (req, res, next) => {
             headers: {
                 // REQUIRED: Your specific email & Render link
                 "User-Agent": "TravellerApp/1.0 (aishani1020@gmail.com)",
-                "Referer": "https://destination-predictor.onrender.com/"
+                "Referer": "https://traveller-fullstack.onrender.com/"
             }
         });
 
